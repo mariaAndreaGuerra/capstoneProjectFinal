@@ -1,0 +1,45 @@
+Project Overview for Inventory Management Site
+
+1. Tech Stack
+For the final project, the tech stack will include:
+* Frontend: React.js, HTML, CSS & JavaScript
+* Backend: Python, Flask, Flask-Alchemy
+* Database: SQLite
+* API Integration: Using free APIs for barcode scanning (e.g., Barcode Lookup API) and notifications (e.g., Twilio API)
+* Deployment: Heroku for hosting
+
+2. Focus of the Project
+The project will be an evenly focused full-stack application. Both the frontend and backend will receive significant attention to ensure a seamless user experience and robust backend functionality.
+
+3. Type of Application
+This project will be a website designed to be responsive, ensuring it works well on both desktop browsers.
+
+4. Goal of the Project
+The primary goal of the Inventory Management Site is to:
+* Provide small to medium-sized businesses with an efficient tool for managing inventory.
+* Streamline the processes of tracking inventory levels, managing orders, and generating reports.
+* Integrate with third-party APIs to enhance functionality, such as barcode scanning and sending notifications.
+
+5. Target Users
+The target users for this application are:
+* Business owners and managers who need to oversee inventory and sales.
+* Warehouse staff responsible for updating and maintaining inventory records.
+* Sales teams needing real-time access to stock levels and order statuses.
+These users are typically part of small to medium-sized enterprises (SMEs) across various industries, including retail, wholesale, and manufacturing.
+
+6. Data and Data Collection
+The data to be used in this project includes:
+* User Data: Information about the users of the system (e.g., admin, manager, staff), including login credentials and roles.
+* Product Data: Details about products such as name, description, SKU, price, and inventory levels.
+* Order Data: Information about customer orders, including order items, quantities, total amounts, and statuses.
+* Inventory Data: Records of inventory levels and locations.
+
+Data Collection:
+* Internal Data Entry: Users will manually input and update product and inventory information through the website interface.
+* API Integration: The application will integrate with external APIs for:
+    * Barcode Scanning: Using a free API like Barcode Lookup API to fetch product information by scanning barcodes.
+    * Notifications: Using Twilio API to send SMS notifications for important events such as low stock alerts and order updates.
+
+
+Summary
+This Inventory Management Site project aims to deliver a comprehensive solution for businesses to manage their inventory efficiently. By leveraging modern web technologies and integrating useful APIs, the project will provide a valuable tool that enhances operational efficiency and decision-making for its users.

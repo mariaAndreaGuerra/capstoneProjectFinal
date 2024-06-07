@@ -1,0 +1,54 @@
+Tables:
+1.Users
+2.Products
+3.Orders
+4.Order_Items
+5.Inventory
+
+1.Users
+
+user_id (PK)
+username
+password
+role (e.g., admin, manager, staff)
+created_at
+updated_at
+
+2.Products
+
+product_id (PK)
+name
+description
+SKU
+price
+created_at
+updated_at
+
+3.Orders
+
+order_id (PK)
+user_id (FK) references Users(user_id)
+order_date
+status
+total_amount
+created_at
+updated_at
+
+4.Order_Items
+
+order_item_id (PK)
+order_id (FK) references Orders(order_id)
+product_id (FK) references Products(product_id)
+quantity
+price
+created_at
+updated_at
+
+5.Inventory
+
+inventory_id (PK)
+product_id (FK) references Products(product_id)
+quantity
+location
+created_at
+updated_at
